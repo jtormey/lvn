@@ -55,6 +55,8 @@ defmodule LvnWeb do
         layout: {LvnWeb.Layouts, :app}
 
       unquote(html_helpers())
+
+      use LiveViewNative.LiveView
     end
   end
 
@@ -63,6 +65,8 @@ defmodule LvnWeb do
       use Phoenix.LiveComponent
 
       unquote(html_helpers())
+
+      use LiveViewNative.LiveComponent
     end
   end
 

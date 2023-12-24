@@ -8,6 +8,6 @@ import LiveViewNative
 
 struct ContentView: View {
     var body: some View {
-        LiveView(.automatic(URL(string: "https://example.com/")!))
+        LiveView(.automatic(URL(string: "http://localhost:4000")!))
     }
 }
